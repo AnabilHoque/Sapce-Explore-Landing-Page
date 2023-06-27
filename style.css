@@ -1,0 +1,252 @@
+/* General Properties */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    flex: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header*/
+
+.logo {
+    height: auto;
+    max-width: 100px;
+    vertical-align: middle;
+}
+
+.header h1 {
+    font-size: 42px;
+    color: #75396a;
+    padding: 12px;
+    flex-shrink: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #13102c;
+    padding: 0px 32px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header.links {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.header.links ul {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-shrink: 0; /* ensures that no wrapping of text onto next line occurs for links */
+    padding-left: 0px;
+}
+
+.header.links li a {
+    color: #75396a;
+    font-weight: bolder;
+    border: 2px solid #75396a;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.header.links li a:hover {
+    background-color: #75396a;
+    color: #13102c;
+}
+
+/* Section 1 */
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #13102c;
+    padding-bottom: 100px;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.section1 .left-section1 {
+    max-width: 520px;
+}
+
+.section1 .left-section1 h1 {
+    color: #75396a;
+    font-size: 38px;
+}
+
+.section1 .left-section1 p {
+    color: #75396a;
+    font-size: 22px;
+}
+
+.section1 .right-section1 {
+    height: auto;
+    max-width: 420px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 2px 1px #34172f;
+}
+
+.section1 .button-section1 {
+    text-align: center;
+}
+
+.button-section1 button {
+    padding: 12px 48px;
+    background-color: #13102c;
+    color: #75396a;
+    font-size: 26px;
+    font-weight: bolder;
+    border: 2px solid #75396a;
+    border-radius: 10px;
+}
+
+.button-section1 button:hover {
+    background-color: #75396a;
+    color: #13102c;
+}
+
+/* Section 2 */
+
+.section2 {
+    background-color: #c7bdd0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section2 h2 {
+    text-align: center;
+    font-size: 38px;
+    margin: 0px;
+}
+.section2 img, .section2 figcaption {
+    max-width: 200px;
+    text-align: center;
+}
+
+.section2 img {
+    border: 3px solid #120c30;
+    border-radius: 10px;
+}
+
+.section2 ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+/* Section 3 */
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url("./images/explore.jpeg");
+    background-position: 55% 60%;
+}
+
+.section3 .box-section3 q, .section3 .box-section3 p {
+    font-size: 38px;
+    color: #13102c;
+}
+
+.section2 .box-section3 q {
+    font-weight: bold;
+}
+
+.section3 .box-section3 {
+    max-width: 1000px;
+}
+
+.section3 .box-section3 p {
+    text-align: right;
+    font-weight: bolder;
+}
+
+/* Section 4 */
+
+.section4 {
+    background-color: #c7bdd0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.section4 .box-section4 {
+    background-color: #75396a;
+    padding: 12px 32px;
+    border: 3px solid #13102c;
+    border-radius: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.section4 .box-section4 h3, .section4 .box-section4 p {
+    color: #13102c;
+}
+
+.section4 .box-section4 h3 {
+    margin: 0px;
+    font-size: 36px;
+}
+
+.section4 .box-section4 p {
+    font-size: 22px;
+}
+
+.button-section4 {
+    display: flex;
+    align-items: center;
+}
+
+.button-section4 button {
+    padding: 8px 16px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #120c30;
+    color: #c7bdd0;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.button-section4 button:hover {
+    background-color: #c7bdd0;
+    color: #120c30;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #13102c;
+}
+
+.footer .footer-copyright {
+    font-size: 20px;
+    color: #75396a;
+}
