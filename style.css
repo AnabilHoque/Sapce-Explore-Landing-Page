@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-/* Header*/
+/* Header */
 
 .logo {
     height: auto;
@@ -75,6 +75,7 @@ a {
 }
 
 /* Section 1 */
+
 .section1 {
     display: flex;
     justify-content: center;
@@ -239,6 +240,7 @@ a {
 }
 
 /* Footer */
+
 .footer {
     display: flex;
     justify-content: center;
